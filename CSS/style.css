@@ -1,0 +1,571 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+                  /***** Unique page css start***********/
+
+
+
+/**********************  header section css start  *************************/
+
+.header-section{
+	width: 100%;
+	background: url(../images/bg-up.png) center top no-repeat;
+	background-size: cover;
+}
+.menu-bar{
+	width: 100%;
+}
+.menu-bar .bg-light{
+	background: transparent !important;
+}
+
+.menu-bar .navbar-light .navbar-nav .active > .nav-link{
+	color: #511DE5;
+    font-weight: 600;
+    background: url(../images/m-unline.png) center bottom no-repeat;
+}
+
+.menu-bar .navbar-light .navbar-nav .nav-link{
+	color: #1A1A1A;
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 15px;
+}
+
+.menu-bar .navbar-light .navbar-nav .nav-link:hover{
+	color: #511DE5;
+    background: url(../images/m-unline.png) center bottom no-repeat;
+    background-size: contain;
+}
+.menu-bar .form-inline .nav-link{
+	color: #1A1A1A;
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 15px;
+}
+.menu-bar .form-inline .nav-link:hover{
+	color: #511DE5;
+    background: url(../images/m-unline.png) center bottom no-repeat;
+    background-size: contain;
+}
+.menu-bar .form-inline .btn-info{
+	padding: 8px 35px;
+	font-size: 14px;
+	font-weight: 500px;
+	text-transform: capitalize;
+	border-radius: 35px;
+	color: #fff;
+	background: linear-gradient(to right , #511DE5 40% , #0C8AFB);
+	border:0px;
+	transition: auto;1s
+}
+
+.menu-bar .form-inline .btn-info:hover{
+    color:#511DE5;
+	background: transparent;
+	border:1px solid #511DE5;
+}
+/**********************  banner section css start  *************************/
+
+.banner-section{
+	width: 100%;
+	padding: 90px 0px 90px;
+}
+.banner-section .banner-inner{
+	width: 100%;
+	padding: 90px 0px 120px;
+}
+.banner-section .banner-inner h1{
+	font-size: 52px;
+	line-height: 58px;
+	font-weight: 700;
+}
+.banner-section .banner-inner h1 span{
+	color:#511DE5;
+}
+.banner-section .banner-inner .btn-info{
+	padding: 8px 35px;
+	font-size: 14px;
+	letter-spacing: 3px;
+	margin:30px 0px;
+	font-weight: 600px;
+	text-transform: capitalize;
+	border-radius: 35px;
+	color: #000;
+	background: #f2f2f2;
+	border:1px solid #f2f2f2;
+	transition: 1s;
+}
+
+.banner-section .banner-inner .btn-info:hover{
+	color: #000;
+	background: #511DE5;
+	border:1px solid #511DE5;
+}
+.highlight-section{
+	widows: 100%;
+	padding:40px 0px;
+	position: relative;
+	background: url("../images/Rectangle 1.png") center center no-repeat;
+	background-size: cover;
+}
+.highlight-section .highlight-inner .abc{
+	position: absolute;
+	top: -130%;
+	left: 0;
+}
+.highlight-section .highlight-inner h2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	color: #fff;
+}
+
+/**********************  banner section css end  *************************/
+
+
+
+/**********************  feature section css start  *************************/
+
+.feature-section{
+	width: 100%;
+	padding: 90px 0px;
+}
+.feature-inner{
+	width: 100%;
+	padding: 120px 120px 150px;
+	background: url("../images/fe-Bg.png") center bottom no-repeat;
+	background-size: cover;
+}
+ .feature-inner h1{
+
+	font-size: 52px;
+	line-height: 58px;
+	font-weight: 700;
+	color: #1A1A1A;
+	margin-bottom: 20px;
+}
+.feature-inner p{
+	
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #1A1A1A;
+	margin-bottom: 50px;
+}
+.feature-inner h4 strong{
+	
+	font-size: 130px;	
+	font-weight: 700;
+	color: #511DE5;
+	margin-bottom: 20px;
+}
+.feature-inner span {
+	
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 700;
+	color: #1A1A1A;
+	margin-bottom: 20px;
+}
+
+.client{
+	width: 100%;
+	padding: 40px 0px 0px;
+	
+	text-align: center;
+}
+.client img{
+	width: 80%;
+}
+
+
+
+
+
+
+/**********************  feature section css end  *************************/
+
+
+
+/**********************  qoute section css start  *************************/
+
+
+
+.intro-qoute{
+	width: 100%;
+	padding: 100px 0px;
+	background: url(../images/q-bg.png) center top no-repeat;
+	background-size: cover;
+}
+.qoute-left{
+	width: 100%;
+	padding: 200px 100px;
+	background: url(../images/q-blu-up.png) center center no-repeat;
+	background-size: contain;
+}
+.qoute-left p{
+	font-size: 14px;
+	color: #fff;
+	margin-left: 20px 0px 25px 25px;
+}
+.qoute-left h6{
+	font-size: 16px;
+	color: #fff;
+	margin-left: 20px 0px 25px 25px;
+}
+.qoute-right h1{
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 700;
+	color: #1A1A1A;
+	margin-left: 50px;
+	margin-top: 115px;
+	margin-bottom: 20px;
+	
+}
+.intro-qoute .qoute-right .btn-info{
+	padding: 8px 35px;
+	font-size: 14px;
+	letter-spacing: 3px;
+	margin:30px 0px;
+	font-weight: 600px;
+	text-transform: capitalize;
+	border-radius: 35px;
+	color: #000;
+	background: #f2f2f2;
+	border:1px solid #f2f2f2;
+	transition: 1s;
+
+	margin-left: 50px;
+}
+.intro-qoute .qoute-right .btn-info:hover{
+	color: #000;
+	background: #511DE5;
+	border:1px solid #511DE5;
+}
+
+
+
+
+
+
+
+
+
+/**********************  qoute section css end  *************************/
+
+
+
+
+/**********************  efficient section css start  *************************/
+
+.efficient{
+	width: 100%;
+	padding: 30px 0px;
+}
+.efficient .effi-inner{
+	width: 100%;
+	padding: 30px 0px;
+	margin-top: 16px;
+}
+.efficient .effi-inner h2{
+    font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #1A1A1A;
+	margin-bottom: 20px;
+}
+.efficient .effi-inner p{
+  font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #1A1A1A;
+	margin-bottom: 50px;
+
+}
+.efficient .effi-inner h6{
+  font-size: 15px;
+	line-height: 25px;
+	font-weight: 700;
+	color: #1A1A1A;
+	margin-bottom: 50px;
+}
+.efficient .effi-inner h6 img{
+margin-left: 10px;
+}
+.efficient .effi-inner .btn-info{
+padding: 10px 35px;
+	font-size: 14px;
+	letter-spacing: 3px;
+	margin:30px 0px;
+	font-weight: 600px;
+	text-transform: capitalize;
+	border-radius: 35px;
+	color: #000;
+	background: linear-gradient(to right , #511DE5 40% , #0C8AFB);
+	border:0px solid #f2f2f2;
+	transition: 1s;
+
+	
+}
+.efficient .effi-inner .btn-info:hover{
+	color: #000;
+	background: #511DE5;
+	border:0px solid #511DE5;
+}
+
+/*************  design code star      ****************/
+
+.design{
+	width: 100%;
+	padding: 60px 0px;
+	background: #fcfcfc;
+}
+.design .tittle{
+	width: 100%;
+	padding: 30px 0px 60px;
+	text-align: center;
+}
+.design .tittle h1{
+    font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #1A1A1A;
+	margin-bottom: 20px;
+}
+.design .tittle p{
+    font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #1A1A1A;
+	margin-bottom: 10px;
+}
+
+.design-inner{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.design-inner img{
+	mix-blend-mode: darken;
+	margin-bottom: 10px;
+}
+.design-inner h4{
+font-size: 22px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #1A1A1A;
+	margin-bottom: 15px;
+}
+.design-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #1A1A1A;
+	margin-bottom: 10px;
+}
+.design-inner .bor{
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+}
+
+
+
+
+/************************    inspiration code start*************************/
+
+.inspiration{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.inspiration .tittle{
+	width: 100%;
+	padding: 30px 0px 60px;
+	text-align: center;
+}
+.inspiration .tittle h1{
+    font-size: 55px;
+	line-height: 65px;
+	font-weight: 700;
+	color: #1A1A1A;
+	margin-bottom: 20px;
+}
+.inspi-box{
+	width: 100%;
+	padding: 40px 20px 20px;
+	background: url(../images/cbg.png) center top no-repeat;
+	background-size: cover;
+	box-shadow: 1px 4px 10px #ccc;
+	opacity: 0.5;
+}
+
+.inspi-box .text-inner{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.inspi-box .text-inner h4{
+	font-size: 16px;
+	line-height: 26px;
+	margin:40px 0px;
+	color: #1A1A1A;
+	
+}
+
+
+.inspi-box .client-pic{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	/*border-bottom: 1px solid #f2f2f2;*/
+}
+
+.inspi-box .client-pic h4{
+	font-size: 16px;
+	line-height: 26px;
+	margin:20px 0px 5px;
+	color: #1A1A1A;
+	text-transform: uppercase;
+	font-weight: 700;
+	
+}
+.inspi-box .client-pic img{
+
+}
+.inspi-box .client-pic p{
+font-size: 14px;
+	line-height: 24px;
+}
+
+
+.inspi-box:hover{
+	opacity: 1;
+}
+
+
+.inspi-box:hover .text-inner h4:hover{
+	color: #511DE5;
+}
+
+/*faq section css*/
+
+.footer{
+	width: 100%;
+	padding: 130px 0px;
+	background: url(../images/fbg.png) center bottom no-repeat;
+	background-size: contain;
+}
+.footer-inner{
+width: 100%;
+padding: 90px;
+color: #000;
+text-decoration-style: none;
+box-shadow: 1px 4px 10px #ccc;
+	background: #fff;
+
+}
+
+
+.footer-inner .tittle{
+	width: 100%;
+	padding: 30px 0px 60px;
+	text-align: center;
+	background: #fff;
+}
+.footer-inner .btn-link{
+	color: #000;
+}
+.footer-inner .btn-link:hover{
+text-decoration: none;
+color: #0056b3;
+}
+.footer-inner .btn-link:focus{
+text-decoration: none;
+color: #511DE5;
+}
+.footer-inner .btn:focus{
+	outline: 0;
+	box-shadow: none;
+}
+
+.footer-inner .tittle h1{
+    font-size: 55px;
+	line-height: 65px;
+	font-weight: 700;
+	color: #1A1A1A;
+	margin-bottom: 20px;
+}
+
+
+.footer-inner .faq-inner .card{
+background:#fff;
+background-clip: border-box;
+border-radius: 0px;
+border: 0px solid rgba(0,0,0,0.125) ;
+
+}
+.footer-inner .faq-inner .card-body{
+	padding: 12px;
+	font-size: 18px;
+	line-height: 28px;
+}
+.footer-inner .faq-inner .card-header{
+padding: .75rem 0rem;
+margin-bottom: 0px;
+background: #fff;
+border-bottom: 0px;
+
+}
+
+
+
+
+
+.bottom-fotter-left{
+	color: #fff;
+	font-size: 18px;
+	line-height: 28px;
+	margin-top: 90px;
+}
+.bottom-fotter-left ul{
+	display: inline-block;
+}
+.bottom-fotter-left ul li{
+	list-style: none;
+		display: inline-block;
+		font-weight: 700;
+		margin-left: 20px;
+}
+
+.bottom-fotter-right h6{
+	color: #fff;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 700;
+	margin-top: 90px;
+	float: right;
+}
+
+
